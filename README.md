@@ -11,3 +11,22 @@ to
 
 `"start": "react-scripts --openssl-legacy-provider start",`
 
+
+## fix "react must be in scope when using jsx"
+
+https://kinsta.com/knowledgebase/react-must-be-in-scope-when-using-jsx/
+
+++ in `package.json`:
+
+```json
+"eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "react/jsx-uses-react": "off",
+      "react/react-in-jsx-scope": "off"
+    }
+  },
+```
