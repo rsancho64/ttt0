@@ -13,10 +13,16 @@
 //   );
 // }
 
-function Square({ value }) {
+import { useState } from "react";
+
+// function Square({ value }) {
+function Square() {
+  const [value, setValue] = useState(null); // now value is global state
+
   function handleClick() {
     console.log("clicked!");
   }
+
   return (
     <button className="square" onClick={handleClick}>
       {value}
