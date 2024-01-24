@@ -1,6 +1,8 @@
+# fixes
+
 ## fix cdigital-envelope-routinesunsupported error
 
-https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported
+<https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported>
 
 - 1094 hits
 - In your package.json: change this line
@@ -11,10 +13,9 @@ to
 
 `"start": "react-scripts --openssl-legacy-provider start",`
 
-
 ## fix "react must be in scope when using jsx"
 
-https://kinsta.com/knowledgebase/react-must-be-in-scope-when-using-jsx/
+<https://kinsta.com/knowledgebase/react-must-be-in-scope-when-using-jsx/>
 
 ++ in `package.json`:
 
